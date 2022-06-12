@@ -24,7 +24,7 @@ const Footer = () => {
                                     <strong>Email:</strong> info@example.com<br />
                                 </p>
                             </div>
-                            <div className="col-lg-2 col-md-6 footer-links">
+                            <div className="col-lg-4 col-md-6 footer-links">
                                 <h4>Useful Links</h4>
                                 <ul>
                                     <li><i className="bx bx-chevron-right" /> <NavLink to="/">Home</NavLink></li>
@@ -32,16 +32,6 @@ const Footer = () => {
                                     <li><i className="bx bx-chevron-right" /> <NavLink to="/">Services</NavLink></li>
                                     <li><i className="bx bx-chevron-right" /> <NavLink to="/">Terms of service</NavLink></li>
                                     <li><i className="bx bx-chevron-right" /> <NavLink to="/">Privacy policy</NavLink></li>
-                                </ul>
-                            </div>
-                            <div className="col-lg-3 col-md-6 footer-links">
-                                <h4>Our Services</h4>
-                                <ul>
-                                    <li><i className="bx bx-chevron-right" /> <NavLink to="/">Web Design</NavLink></li>
-                                    <li><i className="bx bx-chevron-right" /> <NavLink to="/">Web Development</NavLink></li>
-                                    <li><i className="bx bx-chevron-right" /> <NavLink to="/">Product Management</NavLink></li>
-                                    <li><i className="bx bx-chevron-right" /> <NavLink to="/">Marketing</NavLink></li>
-                                    <li><i className="bx bx-chevron-right" /> <NavLink to="/">Graphic Design</NavLink></li>
                                 </ul>
                             </div>
                             <div className="col-lg-4 col-md-6 footer-newsletter">
@@ -57,11 +47,10 @@ const Footer = () => {
                 <div className="container d-md-flex py-4">
                     <div className="me-md-auto text-center text-md-start">
                         <div className="copyright">
-                            © Copyright <strong><span>City Multispeciality Hospital</span></strong>. All Rights Reserved
+                            © Copyright 2022<strong><span>City Multispeciality Hospital</span></strong>. All Rights Reserved
                         </div>
                         <div className="credits">
-                            Designed by <NavLink to="/">Ankil Gajera</NavLink>
-
+                            Designed by <NavLink to="https://roshniwebsolution.com/">Roshniwebsolution</NavLink>
                         </div>
                     </div>
                     <div className="social-links text-center text-md-right pt-3 pt-md-0">
