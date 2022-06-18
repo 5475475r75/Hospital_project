@@ -9,6 +9,7 @@ import About from './Container/About';
 import Contact from './Container/Contact';
 import Appointment from './Container/Appointment';
 import Login from './Container/Login';
+import Medicine from './Container/Medicine';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
             <Route index element={<Home />} />
             <Route exact path='departments' element={<Departments />} />
             <Route exact path='doctors' element={<Doctors />} />
+            <Route exact path='/medicine' element={<Medicine />} />
             <Route exact path='about' element={<About />} />
             <Route exact path='contact' element={<Contact />} />
             <Route exact path='appointment' element={<Appointment />} />
