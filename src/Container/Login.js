@@ -17,7 +17,7 @@ const Login = () => {
                   :
                   <h2>Signup</h2>
                 :
-                <h2>Reset Password</h2>
+                <h2>Forgot Password</h2>
             }
           </div>
           <Form onSubmit={(e) => { e.preventDefault() }} className="php-email-form">
